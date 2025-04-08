@@ -25,10 +25,16 @@
                  System.out.println("\nOPERAÇÃO DE SOMA!");
                  System.out.println("informe o primeiro valor:");
                  n1 = leia.nextInt();
-                 System.out.println("informe o segundo valor");
+                 System.out.println("informe o valor do divisor");
                  n2 = leia.nextInt();
-                 resultado = n1 + n2;
                  System.out.println("o resultado soma é: " + resultado);
+                 if(n2 !=0) {
+                     resultado = n1 + n2;
+                 }
+                 else
+                 {
+                     System.out.println("divisão por zero impossivel!")
+                 }
                  break;
              case 2:                                             //substração
                  System.out.println("\nOPERAÇÃO DE SUBSTRAÇÃO!");
